@@ -1,0 +1,11 @@
+{% block sw_cms_element_jumbotron %}
+    <div class="cms-element-jumbotron-inner jumbotron">
+        <h1 class="display-4">{{ element.config.title.value }}</h1>
+        <div class="lead">{{ element.config.text.value|sw_sanitize|raw }}</div>
+        <div class="lead">
+            <a class="btn btn-lg {{ element.config.buttonClass.value }}"
+               href="{{ element.config.buttonLink.value }}"
+               role="button">{{ element.config.buttonText.value }}</a>
+        </div>
+    </div>
+{% endblock %}

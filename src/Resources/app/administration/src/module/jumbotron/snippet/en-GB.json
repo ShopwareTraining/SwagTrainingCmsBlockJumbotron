@@ -1,0 +1,14 @@
+{
+    "sw-cms": {
+        "blocks": {
+            "jumbotron": {
+                "label": "Jumbotron Block"
+            }
+        },
+        "elements": {
+            "jumbotron": {
+                "label": "Jumbotron Element"
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{% block sw_cms_element_jumbotron_config %}
+    <div>
+        {% block sw_cms_element_jumbotron_config_title %}
+            <sw-text-field
+                class="sw-cms-element-jumbotron-title-field"
+                label="Title"
+                placeholder="Enter a title"
+                v-model="element.config.title.value">
+            </sw-text-field>
+        {% endblock %}
+
+        {% block sw_cms_element_jumbotron_config_text %}
+            <sw-text-editor
+                class="sw-cms-element-jumbotron-text-field"
+                label="Text"
+                placeholder="Enter some additional content"
+                v-model="element.config.text.value">
+            </sw-text-editor>
+        {% endblock %}
+
+        {% block sw_cms_element_jumbotron_config_button_text %}
+            <sw-text-field
+                class="sw-cms-element-jumbotron-button-text-field"
+                label="Button Text"
+                placeholder="Enter text"
+                v-model="element.config.buttonText.value">
+            </sw-text-field>
+        {% endblock %}
+
+        {% block sw_cms_element_jumbotron_config_button_link %}
+            <sw-text-field
+                icon="default-arrow-simple-right"
+                class="sw-cms-element-jumbotron-button-link-field"
+                label="Button Link"
+                placeholder="Enter URL"
+                v-model="element.config.buttonLink.value">
+            </sw-text-field>
+        {% endblock %}
+
+        {% block sw_cms_element_jumbotron_config_button_class %}
+            <sw-text-field
+                class="sw-cms-element-jumbotron-button-class-field"
+                label="Button Class"
+                placeholder="Enter CSS classes"
+                v-model="element.config.buttonClass.value">
+            </sw-text-field>
+        {% endblock %}
+    </div>
+{% endblock %}
