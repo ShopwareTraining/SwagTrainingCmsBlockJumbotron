@@ -19,6 +19,9 @@ Shopware.Component.register('sw-cms-el-jumbotron', {
         },
         buttonClass() {
             return this.element.config.buttonClass.value;
+        },
+        backgroundColor() {
+            return this.element.config.backgroundColor.value;
         }
     },
     created() {

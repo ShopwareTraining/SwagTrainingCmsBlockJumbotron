@@ -33,6 +33,11 @@ Shopware.Service('cmsService').registerCmsElement({
             source: 'static',
             value: 'btn-primary',
             required: true,
+        },
+        backgroundColor: {
+            source: 'static',
+            value: '#eeeeee',
+            required: true,
         }
     }
 });

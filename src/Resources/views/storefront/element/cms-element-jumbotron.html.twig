@@ -1,5 +1,5 @@
 {% block sw_cms_element_jumbotron %}
-    <div class="cms-element-jumbotron-inner jumbotron">
+    <div class="cms-element-jumbotron-inner jumbotron" style="background-color: {{ element.config.backgroundColor.value }}">
         <h1 class="display-4">{{ element.config.title.value }}</h1>
         <div class="lead">{{ element.config.text.value|sw_sanitize|raw }}</div>
         <div class="lead">

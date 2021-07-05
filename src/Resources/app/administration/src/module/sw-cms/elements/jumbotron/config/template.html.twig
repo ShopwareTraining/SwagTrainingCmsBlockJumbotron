@@ -45,5 +45,12 @@
                 v-model="element.config.buttonClass.value">
             </sw-text-field>
         {% endblock %}
+
+        {% block sw_cms_element_jumbotron_config_background_color %}
+            <sw-colorpicker
+                label="Background color"
+                v-model="element.config.backgroundColor.value">
+            </sw-colorpicker>
+        {% endblock %}
     </div>
 {% endblock %}
