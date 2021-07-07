@@ -1,18 +1,17 @@
 {
-  "name": "swag/plugin-skeleton",
-  "description": "Skeleton plugin",
+  "name": "swag-training/cms-block-jumbotron",
+  "description": "CMS Block for a jumbotron",
   "type": "shopware-platform-plugin",
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "SwagExampleJumbotron\\": "src/"
+      "SwagTraining\\CmsBlockJumbotron\\": "src/"
     }
   },
   "extra": {
-    "shopware-plugin-class": "SwagExampleJumbotron\\SwagExampleJumbotron",
+    "shopware-plugin-class": "SwagTraining\\CmsBlockJumbotron\\SwagTrainingCmsBlockJumbotron",
     "label": {
-      "de-DE": "Skeleton plugin",
-      "en-GB": "Skeleton plugin"
+      "en-GB": "CMS Block for a jumbotron"
     }
   }
 }
